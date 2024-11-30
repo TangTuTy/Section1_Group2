@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Product Page</title>
+    <link rel="stylesheet" href="/admin-main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <a href="/home-login"><img src="/login_logo.png" alt="logo" class="icon"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li id="active">Home</li>
+                    <a href="/admin/all-pro"><li>Products Setting</li></a>
+                    <a href="/admin/all-acc"><li>Accounts Setting</li></a>
+                    <a href="/admin/pro"><li>Add Product</li></a>
+                    <a href="/admin/acc"><li>Add Account</li></a>
+                    </ul>
+            </nav>
+        </aside>
+        <main class="main-content">
+            <header class="top-bar">
+                <div class="path">HOME</div>
+                <div class="profile">Admin-name</div>
+            </header>
+            <section class="content">
+                <h1>Welcome To Back-end</h1>
+                <p class="subtitle">If you want to check front-end pages pls click the icon on the top left conner.</p>
+                <h1>About add account</h1>
+                <p class="subtitle">Add account no need to enter the Admin ID.</p>
+            </section>
+        </main>
+    </div>
+    <script>
+        swal.fire("Welcome !!! Don't forget to read the title");
+    </script>
+</body>
+</html>
+

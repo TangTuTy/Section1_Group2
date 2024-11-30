@@ -1,0 +1,21 @@
+{
+  "name": "webservice",
+  "version": "1.0.0",
+  "main": "shoestore-webservice.js",
+  "scripts": {
+    "start" :"nodemon shoestore-webservice.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.11.4",
+    "node-fetch": "^2.7.0",
+    "nodemon": "^3.1.7"
+  }
+}

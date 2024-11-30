@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Product Page</title>
+    <link rel="stylesheet" href="/admin-main.css">
+    <link rel="stylesheet" href="/admin-pro.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <a href="/home-login"><img src="/login_logo.png" alt="logo" class="icon"></a>
+            </div>
+            <nav>
+                <ul>
+                    <a href="/admin/home"><li>Home</li></a>
+                    <a href="/admin/all-pro"><li>Products Setting</li></a>
+                    <a href="/admin/all-acc"><li>Accounts Setting</li></a>
+                    <li id="active">Add Product</li>
+                    <a href="/admin/acc"><li>Add Account</li></a>
+                    </ul>
+            </nav>
+        </aside>
+        <main class="main-content">
+            <header class="top-bar">
+                <div class="path">HOME / PRODUCT / ADD PRODUCT</div>
+                <div class="profile">Admin-name</div>
+            </header>
+            <section class="content">
+                <h2>Add Product</h2>
+                <p class="subtitle">Create a product here.</p>
+                <div class="form-container">
+                    <form>
+                        <div class="input-group">
+                            <input type="text" id="PID" placeholder="Product ID" />
+                            <input type="text" id="Brand" placeholder="Brand" />
+                            <input type="text" id="NamePro" placeholder="Name of Product"/>
+                            <input type="text" id="Price" placeholder="Price"/>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" id="Color" placeholder="Color" />
+                            <input type="text" id="Cate"placeholder="Category" />
+                            <input type="text" id="Quan" placeholder="Stock Quantity" />
+                        </div>
+                        <div class="input-group">
+                            <label class="img-label">Main Image</label>
+                            <input type="file" id="Main_img"/>
+                            <label class="img-label">Detail Image</label>
+                            <input type="file" id="Det_img" />
+                        </div>
+                        <label class="thumb">Thumbnail Image</label>
+                        <div class="input-group">
+                            <label>1</label>
+                            <input type="file" id="thumb1"/>
+                            <label >2</label>
+                            <input type="file" id="thumb2"/>
+                            <label >3</label>
+                            <input type="file" id="thumb3"/>
+                        </div>
+                        
+                        <div class="btn">
+                            <button type="button" id="getBtn" class="get-btn">GET</button>
+                            <button type="button" id="createBtn" class="create-btn">CREATE</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script type="module" src="/AddPro.js"></script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</html>

@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;
+}
+
+body {
+    height: 100vh;
+    caret-color: transparent;
+}
+
+main {
+    background-color: #f9f9f9;
+}
+
+
+.head {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.subhead {
+    text-align: center;
+    font-size: 1em;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.border {
+    height: 320px;
+    width: 240px;
+    background: transparent;
+    border-radius: 10px;
+    transition: border 1s;
+    position: relative;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+
+.card {
+    height: 339px;
+    width: 260px;
+    border-radius: 10px;
+    transition: background 0.8s;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 70px 63px -60px #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card0 {
+    background: url('/Oat.jpg') center no-repeat;
+    background-size: 300px;
+}
+
+.card0:hover {
+    background: url('/Oat.jpg') left center no-repeat;
+    background-size: 570px;
+}
+
+.card0 h2 {
+    color: black;
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.card0:hover h2 {
+    opacity: 1;
+}
+
+.card1 {
+    background: url('/Tle.jpeg') top no-repeat;
+    background-size: 350px;
+}
+
+.card1:hover {
+    background-position: left center;  
+    background-size: 480px; 
+}
+
+.card1 h2 {
+    color: black;
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.card1:hover h2 {
+    opacity: 1;
+}
+
+.card2 {
+    background: url('/Phrueak.jpeg') center no-repeat;
+    background-size: 300px;
+}
+
+.card2:hover {
+    background: url('/Phrueak.jpeg') left center no-repeat;
+    background-size: 550px;
+}
+
+.card2 h2 {
+    color: black;
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.card2:hover h2 {
+    opacity: 1;
+}
+
+.card3 {
+    background: url('/Tang.jpeg') top no-repeat;
+    background-size: 300px;
+}
+
+.card3:hover {
+    background: url('/Tang.jpeg') left center no-repeat;
+    background-size: 470px;
+}
+
+.card3 h2 {
+    color: black;
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.card3:hover h2 {
+    opacity: 1;
+}
+
+.name{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.role {
+    font-size: 16px;
+    font-weight: bold;
+    word-break: break-word;
+    width: 0;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    position: absolute;
+    top: 60%;
+    left: 0%;
+    transform: translate3d(-50%, -50%, 0);
+    font-family: 'Courier New', Courier, monospace;
+}

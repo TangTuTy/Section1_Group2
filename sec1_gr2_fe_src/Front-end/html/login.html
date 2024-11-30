@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allohha Login</title>
+    <link rel="stylesheet" href="/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="login-section">
+            <h2>LOGIN</h2>
+            <p>how do i get started?</p>
+            <form action="/login" method="post">
+                <div class="input-group">
+                    <input type="text" name="username" id="username" placeholder="Username">
+                </div>
+                <div class="input-group">
+                    <input type="password" name="password" autocomplete="current-password" id="password" placeholder="Password" required="">
+                    <span class="password-toggle-icon"><i class="far fa-eye"></i></span>
+                </div>
+                <div class="g-recaptcha" data-sitekey="6LddY4sqAAAAAMlkXpAyZu0IWnCsPSGYiv4sLaM5"></div>
+                <button type="submit" class="login-btn">Login</button>
+            </form>
+            <p class="separator">----Login with Others----</p>
+            <div class="social-login">
+                <button class="facebook-btn">
+                    <img src="/facebook_icon.png" alt="Facebook Logo" class="icon">
+                    Login with Facebook
+                </button>
+                <button class="gmail-btn">
+                    <img src="/gmail_icon.png" alt="Gmail Logo" class="icon">
+                    Login with Gmail
+                </button>
+            </div>
+        </div>
+        <div class="image-section">
+            <div class="overlay">
+                <img src="/login_logo.png" alt="Allohha_Logo" class="logo">
+            </div>
+        </div>
+    </div>
+</body>
+<Script src="/showPassword.js"></Script>
+<script src="/validateLogin.js"></script> 
+</html>

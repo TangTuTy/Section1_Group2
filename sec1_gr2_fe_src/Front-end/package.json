@@ -1,0 +1,16 @@
+{
+  "name": "shoestore",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Sapon Wongkrasaemongkol, 6687053",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  }
+}

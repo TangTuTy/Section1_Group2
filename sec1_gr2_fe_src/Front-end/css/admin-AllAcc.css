@@ -1,0 +1,63 @@
+.container- {
+    margin:20px auto;
+}
+#editAdminForm label {
+    display: block;
+    font-weight: bold;
+    margin: 5px;
+    color: #333;
+}
+
+#editAdminForm input[type="text"],
+#editAdminForm input[type="email"],
+#editAdminForm input[type="hidden"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+#editAdminForm button {
+    font-size: 14px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+
+    h4{
+        white-space: nowrap;
+    }
+}
+
+.input-search{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 14px;
+    width: 30%;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+
+.btn-search {
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+    background-color: transparent;
+}
